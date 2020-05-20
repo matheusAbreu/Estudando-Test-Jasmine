@@ -1,0 +1,25 @@
+{
+  "name": "estudando-test-jasmine",
+  "version": "0.0.1",
+  "description": "Estudando jasmine, Curso da Alura: https://cursos.alura.com.br/course/testes-automatizados-em-javascript-com-jasmine",
+  "main": "index.js",
+  "dependencies": {
+    "jasmine": "^3.5.0"
+  },
+  "type":"module",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheusAbreu/Estudando-Test-Jasmine.git"
+  },
+  "author": "Matheus Abreu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matheusAbreu/Estudando-Test-Jasmine/issues"
+  },
+  "homepage": "https://github.com/matheusAbreu/Estudando-Test-Jasmine#readme"
+}
