@@ -20,5 +20,4 @@ const MaiorEMenor = () => {
     };
    return clazz;
 }
-export default MaiorEMenor;
-//module.export = {MaiorEMenor:MaiorEMenor()};
+module.exports = MaiorEMenor;

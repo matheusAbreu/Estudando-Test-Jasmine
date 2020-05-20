@@ -1,1 +1,4 @@
 /node_modules
+/lib
+/spec/helpers
+/spec/jasmine_examples

@@ -6,7 +6,6 @@
   "dependencies": {
     "jasmine": "^3.5.0"
   },
-  "type":"module",
   "devDependencies": {},
   "scripts": {
     "start": "node index.js",

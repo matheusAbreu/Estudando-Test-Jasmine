@@ -1,4 +1,4 @@
-import MaiorEMenor from './src/MaiorEMenor.js'
+var MaiorEMenor = require('./src/MaiorEMenor');
 var test = MaiorEMenor();
 
 
