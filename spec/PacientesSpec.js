@@ -1,8 +1,8 @@
 describe('Paciente', () => {
-    var Paciente = require('../src/Paciente');
+    var PacienteBuilder = require('./builderObj/PacienteBuilder');
     var test;
     beforeEach(() => {
-        test = Paciente('Gui', 28, 72, 1.82);
+        test = PacienteBuilder().constroi();
     });
 
     it('Deve Calcular o imc', () => {
