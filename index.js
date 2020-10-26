@@ -1,8 +1,8 @@
-var MaiorEMenor = require('./src/MaiorEMenor');
-var test = MaiorEMenor();
+var Paciente = require('./src/Paciente');
+var Consulta = require('./src/Consulta');
 
+var novoPaciente = Paciente("João", 27, 66, 1.70);
 
-test.encontra([7,6,5,4]);
+var novaConsulta = Consulta(novoPaciente, ['proc1','gesso','raio-x'], false, false);
 
-console.log(test.getMaior() === 7);
-console.log(test.getMenor() === 4);
+console.log(" A consulta do Paciente João custa " + novaConsulta.preco());

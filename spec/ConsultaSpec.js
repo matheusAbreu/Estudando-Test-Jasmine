@@ -1,5 +1,5 @@
 describe('Consulta', () => {
-    //var ConsultaBuilder = require('./builderObj/ConsultaBuilder');
+    
     var Consulta = require('../src/Consulta')
     var PacienteBuilder = require('./builderObj/PacienteBuilder');
     var pacienteTest;
